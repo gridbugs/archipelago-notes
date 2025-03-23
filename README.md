@@ -80,3 +80,12 @@ Access Support". Then load the patched ROM into the emulator. The Archipelago
 application runs a server in the background that the SNES emulator connects to,
 and it should automatically open a text client window with a log message like
 "Attached to emunwa://127.0.0.1:48880".
+
+## Cheating
+
+It seems like it's possible to soft-lock all the games at once. To grant a
+player an item to unblock everyone, the text client has a `/items` command
+which lists all the items in a game. To get an item without picking it up
+in-game, run `!getitem "Item Name"` (yes some commands start with `!` and other
+commands start with `/`). If you don't use the right name you'll get a
+suggestion for a similarly named item.
