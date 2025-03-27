@@ -81,6 +81,24 @@ application runs a server in the background that the SNES emulator connects to,
 and it should automatically open a text client window with a log message like
 "Attached to emunwa://127.0.0.1:48880".
 
+### Pokemon Emerald
+
+Download a Pokemon Emerald Gameboy Advance ROM, probably named something like
+"Pokemon - Emerald Version (USA, Europe).gba".
+
+Download
+[Bizhawk](https://tasvideos.org/BizHawk/ReleaseHistory) (a GBA emulator).
+**Make sure to get version 2.9.1 as Archipelago is incompatible with 2.10.0.**
+
+From the Room page on Archipelago, download the patch for the current session
+(the "Download Patch File..." link in the player table for your player). You'll
+get a file named something like "P1_steve_6qT_TXIOSpmQiK44iU16eQ.apemerald".
+
+In the Archipelago application, hit "Open Patch" and select the patch file, then
+follow the prompts and the game will start. In the process it will also open a
+second Text Client. Hit "Connect" in that client too. Test that it worked by
+sending yourself an item (e.g. `!getitem "Chesto Berry").
+
 ## Cheating
 
 It seems like it's possible to soft-lock all the games at once. To grant a
